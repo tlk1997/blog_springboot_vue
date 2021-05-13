@@ -4,7 +4,122 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fff0087-626b-4a54-869c-f63a617067fc" name="Default Changelist" comment="" />
+    <list default="true" id="8fff0087-626b-4a54-869c-f63a617067fc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../auth-center" beforeDir="false" afterPath="$PROJECT_DIR$/../auth-center" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-api/target/classes/com/tlk/blog/entities/Advert.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-api/target/classes/com/tlk/blog/entities/Article.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-api/target/classes/com/tlk/blog/entities/Category.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-api/target/classes/com/tlk/blog/entities/Comment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-api/target/classes/com/tlk/blog/entities/Label.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-api/target/classes/com/tlk/blog/entities/Question.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-api/target/classes/com/tlk/blog/entities/Reply.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-api/target/classes/com/tlk/blog/entities/SysMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-api/target/classes/com/tlk/blog/entities/SysRole.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-api/target/classes/com/tlk/blog/entities/SysUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-api/target/classes/com/tlk/blog/feign/IFeignArticleController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-api/target/classes/com/tlk/blog/feign/IFeignQuestionController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-api/target/classes/com/tlk/blog/feign/req/UserInfoREQ.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-article/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-article/target/classes/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-article/target/classes/com/tlk/blog/ArticleApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-article/target/classes/com/tlk/blog/article/api/ApiAdvertController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-article/target/classes/com/tlk/blog/article/api/ApiArticleController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-article/target/classes/com/tlk/blog/article/api/ApiCategoryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-article/target/classes/com/tlk/blog/article/api/ApiCommentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-article/target/classes/com/tlk/blog/article/config/MyBatisPlusConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-article/target/classes/com/tlk/blog/article/controller/AdvertController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-article/target/classes/com/tlk/blog/article/controller/ArticleController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-article/target/classes/com/tlk/blog/article/controller/CategoryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-article/target/classes/com/tlk/blog/article/controller/CommentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-article/target/classes/com/tlk/blog/article/controller/ConfigController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-article/target/classes/com/tlk/blog/article/controller/LabelController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-article/target/classes/com/tlk/blog/article/feign/FeignArticleController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-article/target/classes/com/tlk/blog/article/mapper/AdvertMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-article/target/classes/com/tlk/blog/article/mapper/ArticleMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-article/target/classes/com/tlk/blog/article/mapper/CategoryMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-article/target/classes/com/tlk/blog/article/mapper/CommentMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-article/target/classes/com/tlk/blog/article/mapper/LabelMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-article/target/classes/com/tlk/blog/article/mapper/xml/AdvertMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-article/target/classes/com/tlk/blog/article/mapper/xml/ArticleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-article/target/classes/com/tlk/blog/article/mapper/xml/CategoryMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-article/target/classes/com/tlk/blog/article/mapper/xml/CommentMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-article/target/classes/com/tlk/blog/article/mapper/xml/LabelMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-article/target/classes/com/tlk/blog/article/req/AdvertREQ.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-article/target/classes/com/tlk/blog/article/req/ArticleListREQ.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-article/target/classes/com/tlk/blog/article/req/ArticleREQ.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-article/target/classes/com/tlk/blog/article/req/ArticleUserREQ.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-article/target/classes/com/tlk/blog/article/req/CategoryREQ.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-article/target/classes/com/tlk/blog/article/req/LabelREQ.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-article/target/classes/com/tlk/blog/article/service/IAdvertService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-article/target/classes/com/tlk/blog/article/service/IArticleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-article/target/classes/com/tlk/blog/article/service/ICategoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-article/target/classes/com/tlk/blog/article/service/ICommentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-article/target/classes/com/tlk/blog/article/service/ILabelService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-article/target/classes/com/tlk/blog/article/service/impl/AdvertServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-article/target/classes/com/tlk/blog/article/service/impl/ArticleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-article/target/classes/com/tlk/blog/article/service/impl/CategoryServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-article/target/classes/com/tlk/blog/article/service/impl/CommentServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-article/target/classes/com/tlk/blog/article/service/impl/LabelServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-article/target/classes/com/tlk/blog/entities/Advert.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-article/target/classes/com/tlk/blog/entities/Article.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-article/target/classes/com/tlk/blog/entities/Comment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-article/target/classes/com/tlk/blog/entities/Label.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-question/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-question/target/classes/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-question/target/classes/com/tlk/blog/QuestionApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-question/target/classes/com/tlk/blog/entities/Question.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-question/target/classes/com/tlk/blog/entities/Reply.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-question/target/classes/com/tlk/blog/question/api/ApiQuestionController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-question/target/classes/com/tlk/blog/question/api/ApiReplyController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-question/target/classes/com/tlk/blog/question/config/MyBatisPlusConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-question/target/classes/com/tlk/blog/question/controller/QuestionController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-question/target/classes/com/tlk/blog/question/controller/ReplyController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-question/target/classes/com/tlk/blog/question/feign/FeignArticleController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-question/target/classes/com/tlk/blog/question/mapper/QuestionMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-question/target/classes/com/tlk/blog/question/mapper/ReplyMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-question/target/classes/com/tlk/blog/question/mapper/xml/QuestionMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-question/target/classes/com/tlk/blog/question/mapper/xml/ReplyMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-question/target/classes/com/tlk/blog/question/req/QuestionUserREQ.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-question/target/classes/com/tlk/blog/question/service/IQuestionService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-question/target/classes/com/tlk/blog/question/service/IReplyService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-question/target/classes/com/tlk/blog/question/service/impl/QuestionServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-question/target/classes/com/tlk/blog/question/service/impl/ReplyServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-system/target/classes/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-system/target/classes/com/tlk/blog/SystemApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-system/target/classes/com/tlk/blog/entities/SysMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-system/target/classes/com/tlk/blog/entities/SysRole.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-system/target/classes/com/tlk/blog/entities/SysUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-system/target/classes/com/tlk/blog/system/api/ApiSysUserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-system/target/classes/com/tlk/blog/system/config/MyBatisPlusConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-system/target/classes/com/tlk/blog/system/config/PasswordEncoderConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-system/target/classes/com/tlk/blog/system/controller/SysMenuController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-system/target/classes/com/tlk/blog/system/controller/SysRoleController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-system/target/classes/com/tlk/blog/system/controller/SysUserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-system/target/classes/com/tlk/blog/system/mapper/SysMenuMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-system/target/classes/com/tlk/blog/system/mapper/SysRoleMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-system/target/classes/com/tlk/blog/system/mapper/SysUserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-system/target/classes/com/tlk/blog/system/mapper/xml/SysMenuMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-system/target/classes/com/tlk/blog/system/mapper/xml/SysRoleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-system/target/classes/com/tlk/blog/system/mapper/xml/SysUserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-system/target/classes/com/tlk/blog/system/req/RegisterREQ.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-system/target/classes/com/tlk/blog/system/req/SysMenuREQ.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-system/target/classes/com/tlk/blog/system/req/SysRoleREQ.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-system/target/classes/com/tlk/blog/system/req/SysUserCheckPasswordREQ.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-system/target/classes/com/tlk/blog/system/req/SysUserREQ.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-system/target/classes/com/tlk/blog/system/req/SysUserUpdatePasswordREQ.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-system/target/classes/com/tlk/blog/system/service/ISysMenuService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-system/target/classes/com/tlk/blog/system/service/ISysRoleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-system/target/classes/com/tlk/blog/system/service/ISysUserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-system/target/classes/com/tlk/blog/system/service/impl/SysMenuServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-system/target/classes/com/tlk/blog/system/service/impl/SysRoleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-system/target/classes/com/tlk/blog/system/service/impl/SysUserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-util/target/classes/com/tlk/blog/util/base/BaseRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-util/target/classes/com/tlk/blog/util/base/Result.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-util/target/classes/com/tlk/blog/util/enums/ArticleStatusEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-util/target/classes/com/tlk/blog/util/enums/ResultEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-util/target/classes/com/tlk/blog/util/tools/RequestUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-util/target/classes/logback.xml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -178,6 +293,7 @@
       <workItem from="1620834627475" duration="231000" />
       <workItem from="1620916223593" duration="914000" />
       <workItem from="1620919364280" duration="316000" />
+      <workItem from="1620919979013" duration="35000" />
     </task>
     <servers />
   </component>
