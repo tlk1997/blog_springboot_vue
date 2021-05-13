@@ -1,0 +1,44 @@
+/* 左侧-技术频道 */
+.el-menu {
+  /* 导航右侧边框 */
+  border: 0;
+}
+.el-menu-item {
+  height: 36px;
+  line-height: 36px;
+  border-radius: 5px;
+}
+.el-menu-item.is-active {
+  background-color: #345dc2;
+  color: #757575;
+}
+  
+/* 中间区域 */
+.blog-center {
+  margin: 0 10px;
+}
+/* 走马灯 */
+.banner {
+  border-radius: 6px;
+  overflow: hidden;
+}
+.banner img{
+  height: 230px;
+  width: 100%;
+}
+  
+/* 右侧课程推荐 */
+.right-card p{
+color: #345dc2;
+font-size: 16px;
+font-weight: 500;
+margin-top: 0;
+}
+.right-card a:hover {
+text-decoration:underline
+}
+.right-card img{
+width: 100%;
+height: 150px;
+border-radius: 5px;
+}

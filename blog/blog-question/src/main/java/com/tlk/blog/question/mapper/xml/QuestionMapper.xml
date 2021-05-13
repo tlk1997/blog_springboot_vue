@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tlk.blog.question.mapper.QuestionMapper">
+
+    <select id="findListByLabelId" resultType="Question">
+        SELECT DISTINCT
+            m1.*
+        FROM
+            tlk_question m1
+                LEFT JOIN tlk_question_label m2 ON m1.id = m2.question_id
+        WHERE
+            m1.`status` != 0
+        AND m2.label_id = #{labelId}
+        ORDER BY
+            m1.update_date DESC
+    </select>
+
+    <select id="findQuestionAndLabelIdsById" resultMap="QuestionAndLabelIdsMap">
+        SELECT m1.*, m2.label_id
+        FROM tlk_question m1 LEFT JOIN tlk_question_label m2
+                                       ON m1.id = m2.question_id
+        WHERE m1.id = #{id}
+    </select>
+
+    <resultMap id="QuestionAndLabelIdsMap" type="Question">
+        <id column="id" property="id"/>
+        <result column="user_id" property="userId" />
+        <result column="nick_name" property="nickName" />
+        <result column="user_image" property="userImage" />
+        <result column="title" property="title" />
+        <result column="md_content" property="mdContent" />
+        <result column="html_content" property="htmlContent" />
+        <result column="view_count" property="viewCount" />
+        <result column="thumhup" property="thumhup" />
+        <result column="reply" property="reply" />
+        <result column="status" property="status" />
+        <result column="create_date" property="createDate" />
+        <result column="update_date" property="updateDate" />
+        <!--  映射标签id，一个问题对应多个标签id-->
+        <collection property="labelIds" javaType="list" ofType="string">
+            <id column="label_id" property="id" />
+        </collection>
+
+    </resultMap>
+
+    <!--  通过问题id删除问题标签中间表 -->
+    <delete id="deleteQuestionLabel">
+        DELETE FROM tlk_question_label WHERE question_id = #{questionId}
+    </delete>
+
+    <insert id="saveQuestionLabel">
+        INSERT INTO tlk_question_label(id, question_id, label_id) VALUES
+        <foreach collection="labelIds" item="item" separator="," >
+            ('${@com.baomidou.mybatisplus.core.toolkit.IdWorker@getId()}', #{questionId}, #{item})
+        </foreach>
+    </insert>
+
+    <update id="updateUserInfo">
+        UPDATE mxg_question SET nick_name = #{nickName} , user_image = #{userImage}
+        WHERE user_id = #{userId}; -- 不要少了英文分号
+        UPDATE mxg_replay SET nick_name = #{nickName} , user_image = #{userImage}
+        WHERE user_id = #{userId}; -- 不要少了英文分号
+    </update>
+</mapper>
